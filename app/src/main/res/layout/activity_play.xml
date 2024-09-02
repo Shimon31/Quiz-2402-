@@ -29,6 +29,7 @@
         android:textStyle="bold" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -78,9 +79,10 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Next Question"
+        android:text="Next"
         android:background="#7F0C93"
         android:textColor="@color/white"
         android:textSize="20sp"
